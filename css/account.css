@@ -1,0 +1,254 @@
+@charset "utf-8";
+body{ margin: 0; padding: 0; font-family: "微软雅黑"; font-size: 12px; background-color: #ebebf2;}
+			div,ul,li,p,a,input,button{ margin: 0;padding: 0; border:none; list-style:none;outline: none;}
+			a:link,a:visited{ color: #7a7974; text-decoration: none;}
+			a:hover{ font-weight: 800;}
+			#header{ 
+				 background-color: #EE6F5E;
+				 height: 50px;
+				 width: 100%;
+				 position: fixed;
+				 top: 0;	
+				 z-index: 10000;	
+				  }
+			.hcenter{ 
+				height:50px;
+				line-height: 50px;
+				font-size: 16px;
+				font-weight: 600;
+				float: left;
+				padding-left: 10px;
+				}
+			.hcenter a:link,.hcenter a:visited{
+				color: #fff;
+			}
+			.hcenter a:hover{
+				font-weight: 800;
+			}
+			#box{
+				width: 100%;
+				margin: 50px auto 0;
+				padding-top: 10px;
+				height: 80px;
+				background-image: url(img/tiaowen.jpg);
+				background-repeat:repeat-x;
+				background-position: bottom;
+				background-color: #fff;
+			}
+			#box .bleft img{
+				width: 30px;
+				height: 30px;
+			}
+			#box .bleft{
+				float: left;
+				padding:20px 10px 0 10px;
+				height: 60px;
+			}
+			#box .bcenter{
+				line-height: 20px;
+				height: 70px;
+				width: 80%;
+				margin: 0 auto;
+				float: left;
+				padding-top: 10px;
+			}
+			#box .bcenter .consignee{
+				font-size: 14px;
+			}
+			#box .bright{
+				float: right;
+				height: 50px;
+				padding-top: 30px;
+			}
+			#content{
+				width: 100%;
+				margin-top: 20px;
+			}
+			#content .theme{
+				padding-left: 10px;
+				height: 45px;
+				background-color: #fff;
+			}
+			#content .theme img{
+				width: 25px;
+				height: 25px;	
+			}
+			#content .theme .tupiao{
+				float: left;
+				padding:10px 5px 0 0 ;
+			}
+			#content .theme .ming{
+				height: 45px;
+				line-height: 45px;
+				color: #EE6F5E;
+				font-size: 14px;
+			}
+			#content .appeal{
+				height: 87px;
+				padding-top:3px ;
+			}
+			#content .tu{
+				float: left;
+				padding:0 5px 0 5px;
+			}
+			#content .tu img{
+				width: 85px;
+				height: 85px;
+			}
+			#content .jieshao{
+				float: left;
+				height: 87px;
+			}
+			#content .jieshao .title{
+				color: #4e4747;
+			}
+			#content .jieshao .ori-price{
+				color: #fe5b5f;
+			    padding-top: 45px;
+			    height: 25px;
+			}
+			.ori-price span{
+				font-size: 16px;
+				color: #fe5b5f;
+			}
+			#content .amount{
+				height: 22px;
+				padding: 65px 5px 0 0;
+				float: right;
+				font-size: 14px;
+			}
+			#content .amounts{
+				width: 100%;
+				background-color: #fff;
+				height: 48px;
+				line-height: 48px;
+				clear: both;
+			}
+			#content .amounts img{
+				width: 25px;
+				height: 25px;
+			}
+			#content .amounts .leibie{
+				color: #4c5154;
+				padding-left: 5px;
+				float: left;
+			}
+			#content .amounts .add{
+				padding: 10px 10px 0 0;
+				height: 38px;
+				float: right;
+				cursor: pointer;
+			}
+			#content .amounts .number{
+				float: right;
+				width: 40px;
+				height: 48px;
+				line-height: 52px;
+				text-align: center;
+				font-size: 14px;
+			}
+			#content .amounts .sub{
+				float: right;
+				padding-top: 10px;
+				height: 38px;
+			}
+			#content .delivery{
+				width: 100%;
+				height: 48px;
+				line-height: 48px;
+				background-color: #fff;
+			}
+			#content .delivery .way{
+				padding-left: 5px;
+				color: #4c5154;
+				float: left;
+			}
+			#content .delivery .express{
+				color: #4c5154;
+				float: right;
+			}
+			#content .message{
+				width: 100%;
+				background-color: #fff;
+				height: 46px;
+				line-height: 46px;
+				border-top:1px solid #f6f6f6 ;
+				border-bottom: 1px solid #f6f6f6;
+			}
+			#content .message .liuyan{
+				color: #4c5154;
+				height: 46px;
+				padding-left: 5px;
+				float: left;
+			}
+			.con{
+				height: 46px;
+			}
+			.con textarea{
+				border: 0;
+				padding-left: 5px;
+				width: 80%;
+				line-height: 44px;
+				color: #8b8b8b;
+				height: 42px;
+			}
+			#content .sum{
+				width: 100%;
+				height: 50px;
+				line-height: 50px;
+				background-color: #fff;
+			}
+			#content .sum .explain{
+				float: right;
+				margin-right: 20px;
+				height: 50px;
+			}
+			#content .sum .total{
+				float: right;
+				height: 50px;
+				margin-right: 10px;
+			}
+			#content .price{
+				height: 50px;
+				float: right;
+				color: #fe5b5f;
+				padding-right: 10px;
+			}
+			#footer{
+				width: 100%;
+				height: 45px;
+				background-color: #f5f5f5;
+				position: fixed;
+				bottom: 0;
+			}
+			#footer .fleft{
+				width: 80%;
+				height: 45px;
+				float: left;
+			}
+			#footer .fleft .price{
+				height: 45px;
+				line-height: 45px;
+				float: right;
+				color: #fe5b5f;
+				padding-right: 10px;
+			}
+			#footer .fleft .total{
+				height: 45px;
+				line-height: 45px;
+				padding-right: 10px;
+				float: right;
+			}
+			#footer .fright{
+				width: 20%;
+				background-color: #ff5001;
+				height: 45px;
+				line-height: 45px;
+				text-align: center;
+				color: #fff;
+				float: right;
+				cursor:pointer;
+			}
+			#footer .fright a:link,#footer .fright a:visited{
+				color: #fff;
+			}

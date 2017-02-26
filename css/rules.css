@@ -1,0 +1,107 @@
+@charset "utf-8";
+			body{
+				 margin: 0; 
+				 padding: 0; 
+				 font-family:arial; 
+				 font-size: 14px;
+				 }
+			div,ul,li,p,a,input,button{ 
+				margin: 0;padding: 0; 
+				border:none; 
+				list-style:none;
+				outline: none;
+				}
+			a:link,a:visited{ 
+				color: #7a7974; 
+				text-decoration: none;
+				}
+			a:hover{ font-weight: 800;}
+			#header{ 
+				 background-color: #EE6F5E;
+				 height: 50px;
+				 width: 100%;
+				 position: fixed;
+				 top: 0;	
+				 z-index: 10000;	
+				  }
+			.header-center{ 
+				height:50px;
+				line-height: 50px;
+				font-size: 16px;
+				font-weight: 600;
+				float: left;
+				padding-left: 10px;
+				background-image: url(../img/back.png);
+				background-repeat: no-repeat;
+				background-size: 20px;
+				background-position: 3px;
+				}
+			.header-center a:link,.header-center a:visited{
+				color: #fff;
+				padding-left: 20px;
+			}
+			.header-center a:hover{
+				font-weight: 800;
+			}
+			#box{
+				width: 100%;
+				height: 150px;
+				margin-top: 50px;
+				position: relative;
+				background-image:url(../img/bg_1.png);
+				background-size: 1400px 150px;
+				background-repeat: repeat-x;
+			}
+			#box .box-left{
+				width: 40%;
+				height: 150px;
+				float: left;
+			}
+			#box .box-user img{
+				width: 90px;
+				height: 90px;
+			}
+			#box .box-left .box-user{
+				height: 90px;
+				margin: 30px auto;
+				padding: 0 20%;
+			}
+			#box .box-right{
+				width: 60%;
+				height: 120px;
+				text-align: center;
+				padding-top: 30px;
+				margin: 0 auto;
+				float: right;
+			}
+			#box .box-right .chinese-text{
+				font-family: "华文行楷";
+				color: #755044;
+				font-size: 20px;
+				padding-top: 10px;
+			}
+			#box .box-right .english-text{
+				font-family: arvo;
+				color: #755044;
+				font-size: 14px;
+			}
+			#content{
+				width: 80%;	
+				margin: 0 auto;
+			}
+			#content .title{
+				margin: 30px 0 10px 0;
+				height: 15px;
+			}
+			#content .title .title-left{
+				color: #4C5154;
+				float: left;
+			}
+			#content .explain{
+				margin: 10px 0;
+			}
+			#content .explain p{
+				text-indent: 1em;
+				line-height: 20px;
+				color: #4C5154;
+			}

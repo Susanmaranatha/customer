@@ -1,0 +1,120 @@
+@charset "utf-8";
+			body{
+				 margin: 0; 
+				 padding: 0; 
+				 font-family:arial; 
+				 font-size: 14px;
+				 background-color: #f7f7f7;
+				 }
+			div,ul,li,p,a,input,button{ 
+				margin: 0;
+				padding: 0; 
+				border:none; 
+				list-style:none;
+				outline: none;
+				}
+			a:link,a:visited{ 
+				color: #7a7974; 
+				text-decoration: none;
+				}
+			a:hover{ font-weight: 800;}
+			#header{ 
+				 background-color: #EE6F5E;
+				 height: 50px;
+				 width: 100%;
+				 position: fixed;
+				 top: 0;	
+				 z-index: 10000;
+				 overflow: hidden;	
+				  }
+			#header a{
+				padding-left: 12px;
+				height:50px;
+				line-height: 50px;
+				font-size: 16px;
+				font-weight: 600;
+				float: left;
+				display: block;
+				background-image: url(../img/back.png);
+				background-repeat: no-repeat;
+				background-size: 20px;
+				background-position: 3px;
+			}
+			#header a:link,#header a:visited{
+				color: #fff;
+				padding-left: 20px;
+			}
+			#header .search-text{
+			    display: inline-block;
+			    width:69%;
+			    height: 30px;
+			    line-height: 30px;
+			    color: #6D6D72;
+			    border-radius: 5px;
+			    background-color: #fff;
+				margin: 10px 5px 10px 25px;
+			    padding-left: 7px;
+			    vertical-align: middle;
+			}
+			#header button{
+				float: right;
+			    width:15%;
+			    height:50px;
+			    line-height: 50px;
+			    display: inline-block;
+			    vertical-align: middle;
+			    background-image: url(../img/sousuo_icon_white.png);
+			    background-size: 25px;
+			    background-repeat: no-repeat;
+			    background-color: #EE6F5E;
+			    background-position: center;
+			}
+			#content{ 
+				width: 100%;  
+				margin: 50px auto 0; 
+				padding: 10px;
+				text-align: center; 
+				}
+			#content .hot-search{overflow: hidden;}
+			#content  .title{
+				font-size: 14px;
+				color: rgba(73, 72, 75, 0.82);
+				padding: 5px;
+				text-align: left;
+				display: block;
+			}
+			#content .hot-content a{
+				display: block;
+				float: left;
+				border: 1px solid #CDCDCD;
+				border-radius: 2px;
+				height: 25px;
+				line-height: 25px;
+				padding: 0 5px;
+				margin: 0 10px 10px 0;
+				color: #9E9E9E;
+			}
+			#content .history-content a{
+				display: block;
+				text-align: left;
+				border-bottom: 1px solid #CDCDCD;
+				border-radius: 2px;
+				height: 25px;
+				line-height: 25px;
+				padding: 0 5px;
+				margin: 0 10px 10px 0;
+				color: #9E9E9E;
+			}
+			#content .empty{
+				padding: 10px 2%;
+			}
+			#content .clear{
+				display: block;
+				width: 90%;
+				height: 35px;
+				line-height: 35px;
+				text-align: center;
+				border:1px solid #CDCDCD ;
+				color:rgba(73, 72, 75, 0.82) ;
+				border-radius: 5px;
+			}

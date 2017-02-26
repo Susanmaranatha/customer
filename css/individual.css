@@ -1,0 +1,173 @@
+@charset "utf-8";
+body{ margin: 0; padding: 0; font-family: "微软雅黑"; font-size: 14px;}
+			div,ul,li,p,a,input,button{ margin: 0;padding: 0; border:none; list-style:none;outline: none;}
+			a:link,a:visited{ color: #7a7974; text-decoration: none;}
+			a:hover{ font-weight: 800;}
+			#header{ 
+				 background-color: #EE6F5E;
+				 height: 50px;
+				 width: 100%;
+				 position: fixed;
+				 top: 0;	
+				 z-index: 10000;			  
+				 }
+			.hleft{
+				height:45px;
+				padding-top: 5px; 
+				float: left;
+				}
+			.hcenter{ 
+				height:50px;
+				line-height: 50px;
+				float: left;
+				color: #fff;
+				font-size: 16px;
+				font-weight: 600;
+				}
+			#box{
+				width: 100%;
+				height: 150px;
+				margin-top: 50px;
+				position: relative;
+				background-image: url(img/bg_1.png);
+				background-size: 1400px 150px;
+				background-repeat: repeat-x;
+			}
+			#box .bleft{
+				width: 40%;
+				height: 150px;
+				float: left;
+			}
+			#box .buser img{
+				width: 90px;
+				height: 90px;
+			}
+			#box .bleft .buser{
+				height: 90px;
+				margin: 30px auto;
+				padding: 0 20%;
+			}
+			#box .bright{
+				width: 60%;
+				height: 120px;
+				text-align: center;
+				padding-top: 30px;
+				margin: 0 auto;
+				float: right;
+			}
+			#box .bright .ctext{
+				font-family: "华文行楷";
+				color: #755044;
+				font-size: 20px;
+				padding-top: 10px;
+			}
+			#box .bright .etext{
+				font-family: arvo;
+				color: #755044;
+				font-size: 14px;
+			}
+			#assortment .guanzhu{
+				float: left;
+				display: inline-block;
+				border: 1px solid #808080;
+				box-sizing: border-box;
+				color: #4E4747;
+				width: 50%;
+				height: 30px;
+				line-height: 30px;
+				text-align: center;
+			}
+			#assortment .dingdan{
+				vertical-align: middle;
+				display: inline-block;
+				border: 1px solid #808080;
+				box-sizing: border-box;
+				color: #4E4747;
+				width: 50%;
+				height: 30px;
+				line-height: 30px;
+				text-align: center;
+			}
+			#content{
+				width: 90%;
+				margin: 10px auto;
+				position: relative;
+			}
+			#content .ctop{
+				width: 80%;
+				height: 100px;
+				margin: 0 auto;
+				box-sizing: border-box;
+			}
+			#content .ctop .cleft{
+				width: 50%;
+				float: left;
+				height: 100px;
+			}
+			#content .ctop .cleft img{
+				width: 100px;
+				height: 100px;
+			}
+			#content .ctop .cright{
+				border-bottom: 1px solid #d8d8d8;
+				float: left;
+				width: 50%;
+				padding-top:20px;
+				line-height: 25px;
+				text-align:center;
+				box-sizing: border-box;
+			}
+			#content .gright{
+				position: absolute;
+				top:35px;
+				right:0;
+			}
+			#content .gright img{
+				width: 30px;
+				height: 30px;
+			}
+			#content .cright .otext{
+				color: #6c6c6c;
+				font-size: 14px;
+			}
+			#content  .cright .ttext{
+				color: #8a8a8a;
+			}
+			#content .cright .thtext{
+				display: inline;
+				color: #ad022c;
+				border: 1px solid #ad022c;
+				border-radius: 10px;
+				padding: 0 3px;
+			}
+			#liubai{
+				width: 100%;
+				height: 75px;
+				line-height: 40px;
+				background-color: #fafafa;
+				text-align: center;
+				color: #808080;
+			}
+			#footer{ 
+				width: 100%; 
+				height: 45px; 
+				background-color: #EE6F5E;
+				 position: fixed; 
+				 bottom: 0;
+				 z-index: 11;
+				 }
+			#footer p{ 
+				width: 25%; 
+				height: 45px; 
+				line-height: 45px; 
+				text-align: center; 
+				float: left;
+				}
+			#footer a:link,#footer a:visited{
+				font-size: 14px;
+				color: #fff4f7;
+				font-weight: 700;
+				 }
+			#footer a:hover{
+				 font-weight: 900;
+				 }
