@@ -1,0 +1,327 @@
+@charset "utf-8";
+			body{ 
+				margin: 0; 
+				padding: 0; 
+				font-family:arial; 
+				font-size: 14px; 
+				background-color: #ebebf2;
+				}
+			div,ul,li,p,a,input,button{
+				margin: 0;
+				padding: 0; 
+				border:none; 
+				list-style:none;
+				outline: none;
+				}
+			a:link,a:visited{ 
+				color: #7a7974; 
+				text-decoration: none;
+				}
+			a:hover{ font-weight: 800;}
+			#header{ 
+				background-color: #EE6F5E;
+				height: 50px;
+				width: 100%;
+				position: fixed;
+				top: 0;	
+				z-index: 10000;			  
+				}
+			.header-content{ 
+				padding-left: 12px;
+				height:50px;
+				line-height: 50px;
+				font-size: 16px;
+				font-weight: 600;
+				float: left;
+				padding-left: 10px;
+				background-image: url(../images/back.png);
+				background-repeat: no-repeat;
+				background-size: 20px;
+				background-position: 3px;
+				}
+			.header-content a:link,.header-content a:visited{
+				color: #fff;
+				padding-left: 20px;
+			}
+			.header-content a:hover{
+				font-weight: 800;
+			}
+			#box{
+				width: 90%;
+				background-color: #fffcdf;
+				margin: 60px auto 10px;
+				position: relative;
+			}
+			#box .picture{
+				height: 20px;
+			}
+			#box .picture .warning img{
+				width: 20px;
+				height: 20px;
+			}
+			#box .picture .warning{
+				position: absolute;
+				top:-2px;
+				left: -2px;
+			}
+			#box .picture .rivet img{
+				width: 35px;
+				height: 35px;
+			}
+			#box .picture .rivet{
+				margin: 0 50%;
+			}
+			#box .title{
+				padding: 0 0 5px 15px;
+				font-size: 14px;
+				color: #b58b5c;
+			}
+			
+			#box #turnon{
+				color: #b58b5c;
+			}
+			li{
+				width: 90%;
+				margin: 0 auto;
+			}
+			#box #turnon span{
+				width: 30%;
+				margin: 0 auto;
+				padding-left: 20px;
+				display: block;
+				background:url(../images/down.png) no-repeat;
+			}
+			#box #turnon a:link,#box #turnon a:visited{
+				color: #fe7468;
+			}
+			#box #turnon a:hover{
+				font-weight: 500;
+			}
+			#container{
+				width: 90%;
+				margin: 0 auto;				
+			}
+			#container .content{
+				background-color: #fff;	
+				bottom: 0;
+				margin: 15px 0;
+				}
+			#container .theme{
+				width: 95%;
+				padding-left: 5%;
+				height: 45px;
+				background-color: #fafafa;
+			}
+			#container .theme img{
+				width: 25px;
+				height: 25px;	
+			}
+			#container .theme .picture{
+				float: left;
+				padding:10px 5px 0 0 ;
+			}
+			#container .theme .brand-title{
+				height: 45px;
+				line-height: 45px;
+				color: #EE6F5E;
+				font-size: 14px;
+			}
+			
+			#container .selects{
+				width: 10%;
+				float: left;
+				text-align: center;
+				height: 87px;
+				line-height: 87px;
+			}
+			#container .selects .circle-initial{
+				position: relative;
+				width: 15px;
+				height: 15px;
+				border: 1px solid #49484B;
+				border-radius: 50%;
+				box-sizing: border-box;
+				display: inline-block;
+			}
+			#container .selects .circle-initial img{
+				position: absolute;
+				left: -4px;
+				top:-4px;
+				width: 20px;
+				}
+			#container .selects input{
+				display: none;
+				
+			}
+			#container .appeal{
+				width: 100%;
+				height: 87px;
+				padding-top:3px ;
+			}
+			#container .product-picture{
+				float: left;
+				padding:0 5px 0 0;
+			}
+			#container .product-picture img{
+				width: 85px;
+				height: 85px;
+			}
+			#container .introduce{
+				float: left;
+				height: 87px;
+			}
+			#container .introduce .title{
+				color: #4e4747;
+			}
+			#container .introduce .univalent{
+				color: #fe5b5f;
+			    padding-top: 45px;
+			    height: 25px;
+			}
+			.univalent .money-price{
+				font-size: 16px;
+				color: #fe5b5f;
+			}
+			#container .amounts{
+				height: 40px;
+				line-height: 40px;
+				margin-top: 45px;
+			}
+			#container .amounts button{
+				width: 20px;
+				height: 20px;
+				font-size: 20px;
+				background-color: #a9b7b7;
+				color: #fff;
+				cursor: pointer;
+			}
+			#container .leibie{
+				color: #4c5154;
+				padding-left: 5px;
+				float: left;
+			}
+			#container  .add{
+				padding: 10px 10px 0 0;
+				height: 30px;
+				float: right;
+			}
+			#container .add img{
+				width: 20px;
+				height: 20px;
+			}
+			#container  .num{
+				float: right;
+				width: 30px;
+				height: 40px;
+				line-height: 55px;
+				text-align: center;
+				font-size: 14px;
+			}
+			#container .sub{
+				float: right;
+				padding-top: 10px;
+				height: 30px;
+			}
+			#container .sub img{
+				width: 20px;
+				height: 20px;
+			}
+			#hint{
+				width: 100%;
+				height: 70px;
+				color: #808080;
+			}
+			#whole{
+				width: 100%;
+				height: 45px;
+				background-color: #f5f5f5;
+				position: fixed;
+				bottom: 45px;
+			}
+			#whole .whole-left{
+				width: 18%;
+				height: 45px;
+				line-height: 45px;
+				float: left;
+				text-align: center;
+			}
+			#whole .whole-left .circle{
+				position: relative;
+				width: 15px;
+				height: 15px;
+				display: inline-block;
+				border: 1px solid #49484B;
+				border-radius: 50%;
+				box-sizing: border-box;
+				vertical-align: middle;
+			}
+			#whole .whole-left .circle img{
+				position: absolute;
+    			left: -4px;
+    			top: -4px;
+    			width: 20px;
+			}
+			#whole .whole-left input{
+				display: none;
+			}
+			#whole .whole-left .select-info{
+				display: inline-block;
+				height: 45px;
+				line-height: 45px;
+				box-sizing: border-box;
+				vertical-align: middle;
+			}
+			#whole .whole-center{
+				width: 62%;
+				height: 45px;
+				float: left;
+			}
+			#whole .whole-center .price{
+				height: 45px;
+				line-height: 45px;
+				float: right;
+				color: #fe5b5f;
+				padding-right: 10px;
+			}
+			#whole .whole-center .total{
+				height: 45px;
+				line-height: 45px;
+				padding-right: 10px;
+				float: right;
+			}
+			#whole .whole-right{
+				width: 20%;
+				background-color: #ff5001;
+				height: 45px;
+				line-height: 45px;
+				text-align: center;
+				color: #fff;
+				float: right;
+				cursor:pointer;
+			}
+			#whole .whole-right a:link,#whole .whole-right a:visited{
+				color: #fff;
+			}
+			#footer{ 
+				width: 100%; 
+				height: 45px; 
+				background-color: #EE6F5E;
+				 position: fixed; 
+				 bottom: 0;
+				 z-index: 11;
+				 }
+			#footer p{ 
+				width: 25%; 
+				height: 45px; 
+				line-height: 45px; 
+				text-align: center; 
+				float: left;
+				}
+			#footer a:link,#footer a:visited{
+				font-size: 14px;
+				color: #fff4f7;
+				font-weight: 700;
+				 }
+			#footer a:hover{
+				 font-weight: 900;
+				 }
